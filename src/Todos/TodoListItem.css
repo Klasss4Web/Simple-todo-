@@ -1,0 +1,24 @@
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 70px;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  border: 2px solid #999;
+  border-radius: 10px;
+}
+
+.completed-btn { 
+  padding: 6px 25px;
+  background: lawngreen;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.remove-btn { 
+  padding: 6px 30px;
+  background: #ff0000;
+  color: #000;
+  border-radius: 10px;
+}
