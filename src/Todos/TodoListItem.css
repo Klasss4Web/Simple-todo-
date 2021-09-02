@@ -9,11 +9,25 @@
   border-radius: 10px;
 }
 
-.completed-btn { 
+.todo-item {
+  padding-left: 30px;
+}
+
+.mark-btn {
   padding: 6px 25px;
-  background: lawngreen;
   border-radius: 10px;
   margin-right: 5px;
+}
+
+.mark-completed-btn {
+  /* transform: translateX(-300%); */  
+  background: blue;
+  color: #fff;
+  
+}
+
+.completed-btn { 
+  background: lawngreen;
 }
 
 .remove-btn { 

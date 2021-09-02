@@ -1,4 +1,5 @@
 import { createStore, combineReducers } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import { todos } from './Todos/reducers';
 
 const reducers = {
@@ -7,5 +8,5 @@ const reducers = {
 
 const rootReducer = combineReducers(reducers);
 
-export const configureStore = () => createStore(rootReducer);
+export const configureStore = () => createStore(rootReducer, composeWithDevTools());
 
